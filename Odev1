@@ -1,0 +1,21 @@
+1) 
+Select title,description FROM film ORDER BY title DESC
+
+2)
+SELECT * FROM Film 
+WHERE  length > 60 AND length < 75;
+
+3) 
+SELECT * FROM Film 
+WHERE  rental_rate = 0.99
+AND (replacement_cost = 12.99 OR replacement_cost =28.99) ;
+
+
+4)
+SELECT last_name FROM customer
+Where first_name = 'Mary';
+
+5) 
+Select * From film
+Where length <= 50 
+AND rental_rate NOT IN (2.99, 4.99) 

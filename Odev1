@@ -18,9 +18,4 @@ Where first_name = 'Mary';
 5) 
 Select * From film
 Where length <= 50 
-AND rental_rate NOT IN (2.99, 4.99) 
-
-6 
-Select * From film
-Where length <= 100 
-AND rental_rate NOT IN (2.99, 4.99) 
+AND rental_rate NOT IN (2.99, 4.99)
